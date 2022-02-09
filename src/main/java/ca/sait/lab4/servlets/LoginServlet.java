@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 /**
- *
+ * Handles all authentication and session creation/desruction
  * @author Alan(Dong O) Kim
  */
 public class LoginServlet extends HttpServlet {
@@ -34,7 +34,7 @@ public class LoginServlet extends HttpServlet {
             if (query != null && query.contains("logout")) {
                 session.invalidate();
                  
-                request.setAttribute("message", "Yor are logged out.");
+                request.setAttribute("message", "Yor are successfully logged out.");
             } else {
                 response.sendRedirect("home");
                 return;

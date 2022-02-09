@@ -3,8 +3,8 @@ package ca.sait.lab4.models;
 import java.io.Serializable;
 
 /**
- *
- * @author USER
+ * Represent a User 
+ * @author Alan(Dong O) Kim
  */
 public class User implements Serializable{
     private String username;

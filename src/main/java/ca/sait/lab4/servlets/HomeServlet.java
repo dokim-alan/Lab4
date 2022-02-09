@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 /**
- *
+ * Show a welcome message
  * @author Alan (Dong O) Kim
  */
 public class HomeServlet extends HttpServlet {

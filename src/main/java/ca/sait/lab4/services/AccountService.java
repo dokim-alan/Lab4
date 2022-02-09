@@ -3,8 +3,8 @@ package ca.sait.lab4.services;
 import ca.sait.lab4.models.User;
 
 /**
- *
- * @author USER
+ * Login validation service
+ * @author Alan(Dong O) Kim
  */
 public class AccountService {
         public User login(String username, String password) {
